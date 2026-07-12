@@ -15,7 +15,7 @@ public class ArquiteturaApplication {
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(ArquiteturaApplication.class);
 		builder.bannerMode(Banner.Mode.OFF);
 
-		
+
 		builder.run(args);
 	}
 
