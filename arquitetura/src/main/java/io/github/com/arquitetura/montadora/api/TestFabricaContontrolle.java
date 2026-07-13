@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestFabricaContontrolle {
 
     @Autowired //automitiza a instancia pelo bean MontadoraConfiguration
-    @Qualifier("Eletrico") //escolha do bean
+
+    //@Qualifier("Eletrico") //escolha do bean
     private Motor motor;
 
 
