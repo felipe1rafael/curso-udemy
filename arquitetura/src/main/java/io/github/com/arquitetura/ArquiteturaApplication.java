@@ -14,6 +14,8 @@ public class ArquiteturaApplication {
 		//SpringApplication.run(ArquiteturaApplication.class, args);
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(ArquiteturaApplication.class);
 		builder.bannerMode(Banner.Mode.OFF);
+		builder.profiles("producao", "homologacao");
+		//builder.lazyInitialization(false);
 
 
 		builder.run(args);
