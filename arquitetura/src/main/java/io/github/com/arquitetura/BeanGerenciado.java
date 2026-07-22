@@ -15,6 +15,8 @@ import org.springframework.stereotype.Component;
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 public class BeanGerenciado {
 
+
+
     @Autowired
     private TodoValidator validator;
 
